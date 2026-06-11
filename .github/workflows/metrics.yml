@@ -29,7 +29,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: ditasto
+          user: roccona
           template: classic
           base: header, activity, repositories
           config_timezone: Europe/London
