@@ -37,9 +37,9 @@ jobs:
           # Introduction (Bio)
           plugin_introduction: yes
           plugin_introduction_title: yes
-          plugin_introduction_description: "'Never pay any attention to what critics say. A statue has never been erected in honour of a critic.' - Jean Sibelius"
+          plugin_introduction_description: |
+            "Never pay any attention to what the critics have to say. A statue has never been erected in honour of a critic." - Jean Sibelius
 
           # Calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-
