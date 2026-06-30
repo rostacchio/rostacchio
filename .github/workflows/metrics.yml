@@ -1,4 +1,4 @@
-Name: Metrics
+name: Metrics
 
 on:
   # Schedule updates (each hour)
@@ -33,9 +33,6 @@ jobs:
           template: classic
           base: header, activity, repositories
           config_timezone: Europe/London
-
-          # Introduction
-          plugin_introduction: yes
 
           # Calendar
           plugin_isocalendar: yes
