@@ -1,4 +1,4 @@
-name: Metrics
+Name: Metrics
 
 on:
   # Schedule updates (each hour)
@@ -34,6 +34,12 @@ jobs:
           base: header, activity, repositories
           config_timezone: Europe/London
 
+          # Introduction (Bio)
+          plugin_introduction: yes
+          plugin_introduction_title: yes
+          plugin_introduction_description: "'Never pay any attention to what critics say. A statue has never been erected in honour of a critic.' - Jean Sibelius"
+
           # Calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+
