@@ -34,11 +34,8 @@ jobs:
           base: header, activity, repositories
           config_timezone: Europe/London
 
-          # Introduction (Bio)
+          # Introduction
           plugin_introduction: yes
-          plugin_introduction_title: yes
-          plugin_introduction_description: |
-            "Never pay any attention to what the critics have to say. A statue has never been erected in honour of a critic." - Jean Sibelius
 
           # Calendar
           plugin_isocalendar: yes
